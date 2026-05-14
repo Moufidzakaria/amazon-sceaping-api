@@ -1,0 +1,50 @@
+{
+  "title": "Amazon Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+
+  "properties": {
+
+    "categories": {
+      "title": "Categories",
+      "type": "array",
+      "description": "Amazon search keywords",
+      "editor": "stringList",
+      "default": [
+       "gaming chair",
+        "laptop",
+        "headphones",
+        "smartwatch",
+        "monitor"
+      ]
+    },
+
+    "pages": {
+      "title": "Pages per category",
+      "type": "integer",
+      "description": "How many pages to scrape per category",
+      "default": 30,
+      "minimum": 1,
+      "maximum": 200
+    },
+
+    "maxProducts": {
+      "title": "Max Products",
+      "type": "integer",
+      "description": "Maximum number of products to scrape (recommended 50000)",
+      "default": 50000,
+      "minimum": 100,
+      "maximum": 1000000
+    },
+
+    "deduplicate": {
+      "title": "Deduplicate",
+      "type": "boolean",
+      "description": "Remove duplicate products by ASIN",
+      "default": true
+    }
+
+  },
+
+  "required": ["categories"]
+}

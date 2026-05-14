@@ -1,0 +1,53 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Amazon Scraper Output",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "category": {
+      "type": "string",
+      "title": "Category",
+      "template": "{{category}}"
+    },
+    "title": {
+      "type": "string",
+      "title": "Product Title",
+      "template": "{{title}}"
+    },
+    "price": {
+      "type": "string",
+      "title": "Price",
+      "template": "{{price}}"
+    },
+    "rating": {
+      "type": "string",
+      "title": "Rating",
+      "template": "{{rating}}"
+    },
+    "image": {
+      "type": "string",
+      "title": "Image",
+      "template": "<img src='{{image}}' width='80' />"
+    },
+    "link": {
+      "type": "string",
+      "title": "Product Link",
+      "template": "<a href='{{link}}' target='_blank'>View</a>"
+    },
+    "asin": {
+      "type": "string",
+      "title": "ASIN",
+      "template": "{{asin}}"
+    },
+    "badge": {
+      "type": "string",
+      "title": "Badge",
+      "template": "{{badge}}"
+    },
+    "timestamp": {
+      "type": "string",
+      "title": "Scraped At",
+      "template": "{{timestamp}}"
+    }
+  }
+}

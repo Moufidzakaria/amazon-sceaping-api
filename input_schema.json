@@ -1,0 +1,27 @@
+{
+  "title": "Amazon Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "categories": {
+      "title": "Categories",
+      "type": "array",
+      "description": "Amazon search keywords",
+      "editor": "stringList",
+      "default": [
+        "gaming chair",
+        "laptop",
+        "headphones",
+        "smartwatch",
+        "monitor"
+      ]
+    },
+    "pages": {
+      "title": "Pages per category",
+      "type": "integer",
+      "description": "How many pages per category",
+      "default": 3
+    }
+  },
+  "required": ["categories"]
+}

@@ -1,0 +1,9 @@
+{
+  "actorSpecification": 1,
+  "name": "amazon-multi-scraper",
+  "title": "Amazon Multi Category Scraper",
+  "version": "1.0",
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "readme": "./README.md"
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+     "gaming chair",
+    "laptop",
+    "headphones",
+    "smartwatch",
+    "monitor"
+  ],
+  "pages": 10,
+  "maxProducts": 2000,
+  "deduplicate": true,
+  "country": "us",
+  "currency": "USD"
+}
